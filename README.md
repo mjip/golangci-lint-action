@@ -9,6 +9,8 @@ Github action for golangci-lint
 
 ## Example usage
 
+```yaml
 uses: actions/golangci-lint-action@v1
 with:
 	golangci-lint-version: "v1.23"
+```
