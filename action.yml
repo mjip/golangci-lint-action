@@ -1,0 +1,11 @@
+name: golangci-lint-action
+description: Wrapper for golangci-lint
+
+inputs:
+	golangci_lint_version:
+		description: golangci-lint release tag for Docker
+		default: v1.24
+
+runs:
+	using: docker
+	image: Dockerfile
